@@ -25,9 +25,11 @@ body {
     justify-content: space-between;
     margin-top: 25px;
 }
-
+.logo {
+  z-index: 2;
+}
 .logo h2 {
-    color: #fff;
+    color: #00f0ff;
     font-family: 'Montserrat-SemiBold', sans-serif;
 }
 
@@ -55,7 +57,7 @@ body {
 
 #Head {
     position: relative;
-    background: url(../../images/bg-image.png);
+    background: url(../../images/1609684584442.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 635px;
@@ -77,7 +79,7 @@ body {
 }
 .banner-section {
     display: flex;
-    margin-top: 65px;
+    margin-bottom: 65px;
 }
 .banner-section div {
     width: 100%;
@@ -109,6 +111,7 @@ body {
 
 .fct-desc {
     font-size: 16px;
+    margin-bottom: 35px;
 }
 
 .social {
@@ -407,10 +410,11 @@ body {
     font-size: 14px;
     line-height: 1.6;
     color: #dcdcdc;
-    margin-bottom: 25px;
     font-family: 'Montserrat-Medium', sans-serif;
   }
-  
+  .service-card .card-desc {
+    margin-bottom: 25px;
+  }
   .hire-btn {
     display: inline-block;
     background-color: white;
@@ -555,7 +559,6 @@ body {
   }
   
   .contact-info .logo {
-    max-width: 120px;
     margin-bottom: 20px;
   }
   
@@ -661,7 +664,10 @@ body {
   .scrollTop {
     cursor: pointer;
   }
-
+  .card-icon i {
+    font-size: 30px;
+    color: #00d2ff;
+  }
   /* Navigation cachée en mobile */
 @media (max-width: 768px) {
   .header {
