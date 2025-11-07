@@ -476,11 +476,12 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+    height: 320px;
   }
   
   .portfolio-item img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     border-radius: 12px;
     object-fit: cover;
@@ -539,6 +540,14 @@ body {
     transform: translateY(0);
   }
 
+  .disclaimer-content {
+    max-width: 520px;
+    margin: 15px auto;
+  }
+  .disclaimer {
+    margin-top: 50px;
+  }
+
   /* ------------Contact-------------- */
   .contact-section {
     background-color: #2c303a;
@@ -561,7 +570,7 @@ body {
   .contact-info .logo {
     margin-bottom: 20px;
   }
-  
+  .disclaimer,
   .contact-info p {
     font-size: 0.95rem;
     line-height: 1.7;
