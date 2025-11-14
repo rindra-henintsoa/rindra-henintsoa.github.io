@@ -299,6 +299,9 @@ body {
   .tabset {
     max-width: 65em;
   }
+  .exp-row {
+    display: flex;
+  }
 
   /* ------- skills-section ------- */
   #skills-section {
@@ -411,6 +414,7 @@ body {
     line-height: 1.6;
     color: #dcdcdc;
     font-family: 'Montserrat-Medium', sans-serif;
+    height: 190px;
   }
   .service-card .card-desc {
     margin-bottom: 25px;
@@ -541,7 +545,7 @@ body {
   }
 
   .disclaimer-content {
-    max-width: 520px;
+    max-width: 755px;
     margin: 15px auto;
   }
   .disclaimer {
@@ -747,6 +751,14 @@ body {
     margin: 15px;
   }
 
+  .tabset .tab-panel {
+    padding: 0;
+  }
+
+  .exp-row {
+    flex-direction: column;
+  }
+  
   .contact-wrapper {
     flex-wrap: wrap;
     gap: 0;
