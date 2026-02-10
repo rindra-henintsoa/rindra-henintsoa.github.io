@@ -77,11 +77,11 @@ body {
   z-index: 1;
   pointer-events: none; /* permet aux clics de passer à travers si nécessaire */
 }
-.banner-section {
+.banner-section .banner-inner {
     display: flex;
     margin-bottom: 65px;
 }
-.banner-section div {
+.banner-section .banner-inner div {
     width: 100%;
     z-index: 2;
 }
@@ -683,11 +683,13 @@ body {
   }
   /* Navigation cachée en mobile */
 @media (max-width: 768px) {
+  #Head {
+    height: unset !important;
+  }
   .header {
     padding: 0 20px;
     align-items: center;
   }
-
   .navbar {
     display: none;
     position: absolute;
@@ -760,16 +762,27 @@ body {
   }
   
   .contact-wrapper {
-    flex-wrap: wrap;
-    gap: 0;
+    flex-direction: column;
+    gap: 25px;
   }
-  
+  .contact-form {
+    width: 100%;
+  }
+  .contact-form {
+    padding: 0 20px;
+  }
   .skills-grid {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
   }
-
+  .portfolio-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info {
+    text-align: center;
+  }
   .form-row {
     flex-direction: column;
   }
